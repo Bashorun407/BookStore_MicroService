@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="book-identity-service" />
+        <module name="book-service-registry" />
+        <module name="book-user-service" />
+        <module name="book-payment-service" />
+        <module name="book-transaction-service" />
+        <module name="book-notification-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="book-identity-service" target="17" />
+      <module name="book-notification-service" target="17" />
+      <module name="book-payment-service" target="17" />
+      <module name="book-service-registry" target="17" />
+      <module name="book-transaction-service" target="17" />
+      <module name="book-user-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="book-identity-service" options="-parameters" />
+      <module name="book-notification-service" options="-parameters" />
+      <module name="book-payment-service" options="-parameters" />
+      <module name="book-service-registry" options="-parameters" />
+      <module name="book-transaction-service" options="-parameters" />
+      <module name="book-user-service" options="-parameters" />
+    </option>
+  </component>
+</project>

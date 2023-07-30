@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/BookStore-MicroServices.iml" filepath="$PROJECT_DIR$/.idea/BookStore-MicroServices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/book-identity-service/book-identity-service.iml" filepath="$PROJECT_DIR$/book-identity-service/book-identity-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/book-notification-service/book-notification-service.iml" filepath="$PROJECT_DIR$/book-notification-service/book-notification-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/book-payment-service/book-payment-service.iml" filepath="$PROJECT_DIR$/book-payment-service/book-payment-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/book-service-registry/book-service-registry.iml" filepath="$PROJECT_DIR$/book-service-registry/book-service-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/book-transaction-service/book-transaction-service.iml" filepath="$PROJECT_DIR$/book-transaction-service/book-transaction-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/book-user-service/book-user-service.iml" filepath="$PROJECT_DIR$/book-user-service/book-user-service.iml" />
+    </modules>
+  </component>
+</project>
