@@ -98,5 +98,15 @@
 			</plugin>
 		</plugins>
 	</build>
+	<profiles>
+		<profile>
+			<id>PaymentService</id>
 
+			<properties>
+				<spring.profiles.active>
+					PaymentService
+				</spring.profiles.active>
+			</properties>
+		</profile>
+	</profiles>
 </project>

@@ -85,5 +85,15 @@
 			</plugin>
 		</plugins>
 	</build>
+	<profiles>
+		<profile>
+			<id>IdentityService</id>
 
+			<properties>
+				<spring.profiles.active>
+					IdentityService
+				</spring.profiles.active>
+			</properties>
+		</profile>
+	</profiles>
 </project>

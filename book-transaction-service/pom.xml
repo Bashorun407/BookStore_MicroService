@@ -98,5 +98,14 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	<profiles>
+		<profile>
+			<id>TransactionService</id>
+			<properties>
+				<spring.profiles.active>
+					TransactionService
+				</spring.profiles.active>
+			</properties>
+		</profile>
+	</profiles>
 </project>

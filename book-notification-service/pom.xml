@@ -85,5 +85,16 @@
 			</plugin>
 		</plugins>
 	</build>
+	<profiles>
+		<profile>
+			<id>NotificationService</id>
+
+			<properties>
+				<spring.profiles.active>
+					NotificationService
+				</spring.profiles.active>
+			</properties>
+		</profile>
+	</profiles>
 
 </project>
